@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter JQuery</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              Twitter
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- SECCIÓN PARA ESCRIBIR PUBLICACIONES -->
+    <section class="container">
+      <section class="row">
+        <form id="publicador" action="index.html" method="post">
+          <div class="form-group">
+            <label for="message">Publica en twitter:</label>
+            <textarea id="publicacion" class="form-control" name="publicacion" rows="3"></textarea>
+          </div>
+          <button class="btn btn-default" type="submit">Publicar</button>
+        </form>
+      </section>
+    </section>
+    <section class="container">
+      <section class="row">
+        <section id="publicaciones">
+          
+        </section>
+      </section>
+    </section>
+    <script type="text/javascript" src="assets/js/jquery-3-2-1.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
+</html>
