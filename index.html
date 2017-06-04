@@ -25,9 +25,12 @@
         <form id="publicador" action="index.html" method="post">
           <div class="form-group">
             <label for="message">Publica en twitter:</label>
-            <textarea id="publicacion" class="form-control" name="publicacion" rows="3"></textarea>
+            <textarea id="publicacion" class="form-control texto-mensaje" name="publicacion" rows="3"></textarea>
+            <div class="contenedor-caracteres">
+              <label>Total de caracteres <span id="contadorCaracteres" class="badge"></span> / 140</label>
+            </div>
           </div>
-          <button id="botonPublicar" class="btn btn-default" type="submit">Publicar</button>
+          <button id="botonPublicar" class="btn btn-default" type="submit" disabled="">Publicar</button>
         </form>
       </section>
     </section>

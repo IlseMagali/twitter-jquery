@@ -5,3 +5,15 @@ body {
 header div  {
   background-color: #1D72D7;
 }
+
+.eliminar-contenedor {
+  display:none;
+}
+
+.contenedor-caracteres {
+  margin-top: 1%;
+}
+
+textarea {
+  color:blue:
+}
